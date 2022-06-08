@@ -7,6 +7,7 @@ import Layout from '../../components/layout';
 export default function FirstPost() {
   let pageTitle = "First Post";
   return (
+      <Layout>
     <>
       <Head>
         <title>{pageTitle}</title>
@@ -19,5 +20,6 @@ export default function FirstPost() {
         </Link>
       </h2>
     </>
+      </Layout>
   );
 }
