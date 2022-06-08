@@ -1,15 +1,16 @@
 # nextjs-blog
-Personal website, built with Next.js, React
+Blog, built with Next.js, React
 
 ## Deployment
-[![Netlify Status](https://api.netlify.com/api/v1/badges/50bbc44f-5675-434e-8105-ba1e7c2b2434/deploy-status)](https://app.netlify.com/sites/condescending-jepsen-669694/deploys)
+![Vercel](https://vercelbadge.vercel.app/api/fjs138/nextjs-blog)
 
-https://frankjs.net
+https://another-nextjs-blog.vercel.app/
 
 
 ## The Goal
 
-I wanted to learn and try out Next.js, as it provides a powerful way to rapidly develop solutions by handling common tasks.
+I wanted to gained exposure to Next.js, as it provides a powerful way to rapidly develop solutions by handling common tasks.
+It was also a good chance to try out Vercel's offerings for deployment, as I usually go with Netlify.
 
 
 ## Technology Stack
@@ -20,8 +21,6 @@ I wanted to learn and try out Next.js, as it provides a powerful way to rapidly 
 | React		| JavaScript library for building user interfaces            |
 | NextJS			| 	React framework that gives you building blocks to create web applications. |
 | date-fns			|	  Modern JavaScript date utility library|
-
-
 | gray-matter			|	  Parse front-matter from a string or file.|
 |remark,remark-html|Unified processor with support for parsing markdown input and serializing markdown as output|
 
