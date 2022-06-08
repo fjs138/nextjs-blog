@@ -6,7 +6,6 @@ import Link from 'next/link';
 
 const name = 'Frank Santaguida';
 export const siteTitle = 'Yet Another Blog';
-let layoutTitle = `Frank's Blog`
 export default function Layout({ children, home }) {
   return (
       <div className={styles.container}>
@@ -24,7 +23,7 @@ export default function Layout({ children, home }) {
           />
           <meta name="og:title" content={siteTitle} />
           <meta name="twitter:card" content="summary_large_image" />
-          <title> {layoutTitle} </title>
+          <title>        Frank&apos;s          </title>
         </Head>
         <header className={styles.header}>
           {home ? (
