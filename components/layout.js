@@ -4,8 +4,8 @@ import styles from './layout.module.css';
 import utilStyles from '../styles/utils.module.css';
 import Link from 'next/link';
 
-const name = 'Your Name';
-export const siteTitle = 'Next.js Sample Website';
+const name = 'Frank Santaguida';
+export const siteTitle = 'Yet Another Blog';
 
 export default function Layout({ children, home }) {
   return (
@@ -24,6 +24,7 @@ export default function Layout({ children, home }) {
           />
           <meta name="og:title" content={siteTitle} />
           <meta name="twitter:card" content="summary_large_image" />
+          <title>Frank's Blog</title>
         </Head>
         <header className={styles.header}>
           {home ? (

@@ -6,8 +6,11 @@
 
 .header {
     display: flex;
+    color: aquamarine;
+    text-decoration: none;
     flex-direction: column;
     align-items: center;
+
 }
 
 .backToHome {
